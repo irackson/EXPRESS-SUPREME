@@ -14,8 +14,9 @@ const { isAuthenticated, isAuthorized } = require('../utils/auth');
 ////////////////////////////////
 
 ////////////////////////////////
-//! Router Specific Routes
+//! Router Specific Route
 ////////////////////////////////
+//! DON'T FORGET INDUCES ORDER
 
 //* CREATE PAGE
 router.get('/create', getCreate);
